@@ -4,7 +4,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-body{
+.first{
     background-image: url('./diane-picchiottino-s6D7dw6w5h8-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,7 +18,7 @@ header{
     align-items: center;
     width: 100%;
     padding: 25px;
-    
+    background-color: #3e9fb2;
 }
 
 .desktop-nav{
@@ -37,3 +37,48 @@ header nav ul a{
 
 }
 
+header nav ul a :hover{
+    transition: 0s;
+}
+
+
+.first p{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    padding-top: 250px;
+    color: white;
+    font-size:xx-large;
+   
+}
+
+.under{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    color: white;
+}
+
+button{
+    background-color: #3e9fb2;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color:aquamarine;
+}
+
+.pose{
+    padding-left: 630px;
+   
+}
+   
