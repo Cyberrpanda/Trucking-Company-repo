@@ -16,7 +16,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100vw;
+    height:150px;
     padding: 25px;
     background-color: #3e9fb2;
 }
@@ -34,13 +35,20 @@ header .desktop-nav li{
 header nav ul a{
     text-decoration: none;
     color: white;
-
 }
 
-header nav ul a :hover{
-    transition: 0s;
+header nav ul li a{
+    color: white;
+    transition: color 0.3s ease;
 }
 
+header nav ul li a :hover{
+    color: #FFEA41;
+}
+
+.logo{
+    width: 170px;
+}
 
 .first p{
     display: flex;
@@ -81,4 +89,45 @@ button:hover{
     padding-left: 630px;
    
 }
-   
+
+.seconds{
+    background-image: url('./daniel-fikri-4DdUAl4eORE-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.seconds p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    padding-top: 120px;
+    color: white;
+    font-size:xx-large;
+}
+
+.thirds{
+    background-image: url('./mikolaj-felinski-r1poXNhANx4-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.thirds p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    padding-top: 120px;
+    color: white;
+    font-size:xx-large;
+}
+
+footer{
+   background-color: #FFEA41;
+   width: 100vw;
+   height: 250px;
+}
